@@ -7,11 +7,27 @@
 //
 
 #import "XYZAppDelegate.h"
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 
 @implementation XYZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//    // Style navigation bar
+//    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x70DBDB)];
+//        [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+//                                                           [UIFont fontWithName:@"CourierNewPS-BoldItalicMT" size:15.0], NSFontAttributeName, nil]];
+//    [[UINavigationBar appearance] setTintColor:UIColorFromRGB(0xE5000F)];
+//
+//    
+//    // Style segments
+//    [[UISegmentedControl appearance] setTintColor:UIColorFromRGB(0xBE2625)];
+//    
+//    
+//    //[[UIButton appearance] setTintColor:UIColorFromRGB(0xBE2625)];
+
+
     // Override point for customization after application launch.
     return YES;
 }
