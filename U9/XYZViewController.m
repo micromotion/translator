@@ -239,7 +239,9 @@ NSMutableData *_responseData;
     
     NSString *textToTranslate = self.textView.text;
     NSString *from = [self.langsToTranslate objectAtIndex:0];
+    NSLog(@"%@", from);
     NSString *to = [self.langsToTranslate objectAtIndex:1];
+    NSLog(@"%@", to);
     
     // Need first to charachters in country code for translation
     from = [from substringToIndex:2];
@@ -254,10 +256,12 @@ NSMutableData *_responseData;
         to = @"zh-CHS";
     }
     
-    NSString *unencodedString = [NSString stringWithFormat:@"http://alexanderjagbeck.se/home/translator/?text=%@&from=%@&to=%@", textToTranslate, from, to];
+   NSString *unencodedString = [NSString stringWithFormat:@"http://alexanderjagbeck.se/home/translator/?text=%@&from=%@&to=%@", textToTranslate, from, to];
     NSLog(@"%@", unencodedString);
     
+    
     NSString *encodedString = [unencodedString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSLog(@"%@", encodedString);
     
     // Create the request.
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:encodedString]];
@@ -402,6 +406,7 @@ NSMutableData *_responseData;
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
     
     NSString *response = [[NSString alloc] initWithData:_responseData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", response);
     self.textView.text = response;
 }
 

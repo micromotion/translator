@@ -61,8 +61,6 @@
 		11E7838F190EE3E100535403 /* zh-TW.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E7836B190EE3E100535403 /* zh-TW.png */; };
 		11E78392190F2D9100535403 /* XYZLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E78391190F2D9100535403 /* XYZLanguage.m */; };
 		11E78394190FB7B700535403 /* translate_arr.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E78393190FB7B700535403 /* translate_arr.png */; };
-		11E78396190FBB1600535403 /* voice.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E78395190FBB1600535403 /* voice.png */; };
-		11E7839A190FBC7F00535403 /* speech_bubble-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E78399190FBC7F00535403 /* speech_bubble-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,8 +135,6 @@
 		11E78390190F2D9100535403 /* XYZLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZLanguage.h; sourceTree = "<group>"; };
 		11E78391190F2D9100535403 /* XYZLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZLanguage.m; sourceTree = "<group>"; };
 		11E78393190FB7B700535403 /* translate_arr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = translate_arr.png; sourceTree = "<group>"; };
-		11E78395190FBB1600535403 /* voice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice.png; sourceTree = "<group>"; };
-		11E78399190FBC7F00535403 /* speech_bubble-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech_bubble-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,8 +217,6 @@
 				11E78347190EE3E100535403 /* Flags */,
 				11E7830F190BBF2000535403 /* U9-Info.plist */,
 				11E78393190FB7B700535403 /* translate_arr.png */,
-				11E78399190FBC7F00535403 /* speech_bubble-512.png */,
-				11E78395190FBB1600535403 /* voice.png */,
 				11E78310190BBF2000535403 /* InfoPlist.strings */,
 				11E78313190BBF2000535403 /* main.m */,
 				11E78315190BBF2000535403 /* U9-Prefix.pch */,
@@ -381,14 +375,12 @@
 				11E7837D190EE3E100535403 /* id-ID.png in Resources */,
 				11E7838D190EE3E100535403 /* zh-CN.png in Resources */,
 				11E78378190EE3E100535403 /* fi-FI.png in Resources */,
-				11E78396190FBB1600535403 /* voice.png in Resources */,
 				11E7838F190EE3E100535403 /* zh-TW.png in Resources */,
 				11E78389190EE3E100535403 /* sk-SK.png in Resources */,
 				11E7837F190EE3E100535403 /* ja-JP.png in Resources */,
 				11E78387190EE3E100535403 /* ro-RO.png in Resources */,
 				11E78371190EE3E100535403 /* en-AU.png in Resources */,
 				11E78377190EE3E100535403 /* es-MX.png in Resources */,
-				11E7839A190FBC7F00535403 /* speech_bubble-512.png in Resources */,
 				11E78320190BBF2000535403 /* Images.xcassets in Resources */,
 				11E7838C190EE3E100535403 /* tr-TR.png in Resources */,
 				11E78372190EE3E100535403 /* en-GB.png in Resources */,

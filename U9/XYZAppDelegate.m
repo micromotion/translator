@@ -14,18 +14,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    // Style navigation bar
-//    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x70DBDB)];
-//        [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-//                                                           [UIFont fontWithName:@"CourierNewPS-BoldItalicMT" size:15.0], NSFontAttributeName, nil]];
-//    [[UINavigationBar appearance] setTintColor:UIColorFromRGB(0xE5000F)];
-//
-//    
-//    // Style segments
-//    [[UISegmentedControl appearance] setTintColor:UIColorFromRGB(0xBE2625)];
-//    
-//    
-//    //[[UIButton appearance] setTintColor:UIColorFromRGB(0xBE2625)];
+    // Style navigation bar
+   [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x5856D6)];
+    [[UINavigationBar appearance] setTintColor:UIColorFromRGB(0xFFFFFF)];
+
+    // Style segments
+  [[UISegmentedControl appearance] setTintColor:UIColorFromRGB(0x5856D6)];
+    
+    
+    [[UIButton appearance] setTintColor:UIColorFromRGB(0x1D62F0)];
+    
 
 
     // Override point for customization after application launch.
